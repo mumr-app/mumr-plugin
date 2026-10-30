@@ -10,15 +10,28 @@
   "homepage": "https://mumr.app/plugin",
   "repository": "https://github.com/mumr-app/mumr-plugin",
   "license": "MIT",
-  "keywords": ["mumr", "meetings", "meeting recorder", "transcripts", "macos"],
+  "keywords": [
+    "mumr",
+    "meetings",
+    "meeting recorder",
+    "transcripts",
+    "macos"
+  ],
   "requires_local_executor": true,
+  "skills": "./skills/",
   "interface": {
     "displayName": "Mumr",
-    "shortDescription": "Start and stop Mumr recordings on your Mac",
+    "shortDescription": "Start Mumr from your assistant",
     "longDescription": "Ask the assistant to start or stop a Mumr recording, open a meeting in Mumr, or answer questions from the meetings Mumr saved on your Mac. Runs only in threads that run locally on a Mac with Mumr installed.",
     "developerName": "Mumr",
     "category": "Productivity",
+    "capabilities": [
+      "Start and stop Mumr recordings on your Mac",
+      "Open a meeting or the Mumr window",
+      "Answer questions from saved Mumr meetings"
+    ],
     "websiteURL": "https://mumr.app/plugin",
+    "supportURL": "https://mumr.app/contact",
     "privacyPolicyURL": "https://mumr.app/privacy",
     "termsOfServiceURL": "https://mumr.app/terms",
     "defaultPrompt": [
