@@ -1,0 +1,20 @@
+{
+  "name": "mumr",
+  "displayName": "Mumr",
+  "version": "1.0.0",
+  "description": "Start and stop Mumr meeting recordings on your Mac, and read the meetings Mumr saved there, from an assistant that has a shell on that Mac. Needs Mumr for Mac.",
+  "author": {
+    "name": "Mumr",
+    "email": "hello@mumr.app",
+    "url": "https://mumr.app"
+  },
+  "homepage": "https://mumr.app/plugin",
+  "repository": "https://github.com/mumr-app/mumr-plugin",
+  "license": "MIT",
+  "keywords": ["mumr", "meetings", "meeting recorder", "transcripts", "macos"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://mumr.app/plugin",
+  "supportUrl": "https://mumr.app/contact",
+  "privacyPolicyUrl": "https://mumr.app/privacy",
+  "termsOfServiceUrl": "https://mumr.app/terms"
+}

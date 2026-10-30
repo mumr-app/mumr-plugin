@@ -1,0 +1,17 @@
+{
+  "name": "mumr",
+  "description": "The Mumr plugin, published by Mumr.",
+  "owner": {
+    "name": "Mumr",
+    "email": "hello@mumr.app",
+    "url": "https://mumr.app"
+  },
+  "plugins": [
+    {
+      "name": "mumr",
+      "source": "./",
+      "description": "Start and stop Mumr meeting recordings on your Mac, and read the meetings Mumr saved there. Needs Mumr for Mac.",
+      "category": "Productivity"
+    }
+  ]
+}
